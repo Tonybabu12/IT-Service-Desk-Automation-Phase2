@@ -1,0 +1,70 @@
+<svg viewBox="0 0 760 940" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="940" fill="#ffffff"/>
+
+  <text x="380" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">IT Support Automation — System Architecture</text>
+
+  <!-- Box 1: Power Apps -->
+  <rect x="100" y="60" width="560" height="64" rx="10" fill="#742774"/>
+  <text x="380" y="86" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Ticket Submitted</text>
+  <text x="380" y="108" text-anchor="middle" font-size="13" fill="#e8d9e6">Power Apps — submission form + instant self-help guide</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="124" x2="380" y2="154" stroke="#666666" stroke-width="2"/>
+  <polygon points="380,162 373,150 387,150" fill="#666666"/>
+
+  <!-- Box 2: Power Automate (Triage Engine) -->
+  <rect x="70" y="164" width="620" height="240" rx="10" fill="#0058CC"/>
+  <text x="380" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Smart Triage Engine</text>
+  <text x="380" y="208" text-anchor="middle" font-size="13" fill="#cfe0fb">Power Automate</text>
+
+  <rect x="96" y="222" width="568" height="38" rx="6" fill="#ffffff" opacity="0.12"/>
+  <text x="118" y="246" font-size="13" fill="#ffffff">Role-based upgrade — Executive / VIP / IT Infra Head → Critical · Finance dept → High</text>
+
+  <rect x="96" y="266" width="568" height="38" rx="6" fill="#ffffff" opacity="0.12"/>
+  <text x="118" y="290" font-size="13" fill="#ffffff">Anti-gaming downgrade — corrects self-assigned priority (except Suspicious Login)</text>
+
+  <rect x="96" y="310" width="568" height="38" rx="6" fill="#ffffff" opacity="0.12"/>
+  <text x="118" y="334" font-size="13" fill="#ffffff">Keyword risk detection — "virus/breach" → Critical · "urgent/down" → High (never downgrades)</text>
+
+  <rect x="96" y="354" width="568" height="38" rx="6" fill="#ffffff" opacity="0.12"/>
+  <text x="118" y="378" font-size="13" fill="#ffffff">Smart routing — Security Team / Network Team / Service Desk + SLA deadline set</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="404" x2="380" y2="434" stroke="#666666" stroke-width="2"/>
+  <polygon points="380,442 373,430 387,430" fill="#666666"/>
+
+  <!-- Box 3: SharePoint -->
+  <rect x="100" y="444" width="560" height="64" rx="10" fill="#038387"/>
+  <text x="380" y="470" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Ticket Storage + Audit Log</text>
+  <text x="380" y="492" text-anchor="middle" font-size="13" fill="#cdeceb">SharePoint Online — every action logged automatically</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="508" x2="380" y2="538" stroke="#666666" stroke-width="2"/>
+  <polygon points="380,546 373,534 387,534" fill="#666666"/>
+
+  <!-- Box 4: Notifications -->
+  <rect x="100" y="548" width="560" height="64" rx="10" fill="#5B5FC7"/>
+  <text x="380" y="574" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Notifications</text>
+  <text x="380" y="596" text-anchor="middle" font-size="13" fill="#dcdcf4">Confirmation email to submitter + live Microsoft Teams alert</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="612" x2="380" y2="642" stroke="#666666" stroke-width="2"/>
+  <polygon points="380,650 373,638 387,638" fill="#666666"/>
+
+  <!-- Box 5: SLA Breach Monitor -->
+  <rect x="100" y="652" width="560" height="64" rx="10" fill="#D83B01"/>
+  <text x="380" y="678" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">SLA Breach Monitor</text>
+  <text x="380" y="700" text-anchor="middle" font-size="13" fill="#fbdccb">Runs hourly — flags overdue tickets, then escalates if still untouched</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="716" x2="380" y2="746" stroke="#666666" stroke-width="2"/>
+  <polygon points="380,754 373,742 387,742" fill="#666666"/>
+
+  <!-- Box 6: Power BI -->
+  <rect x="100" y="756" width="560" height="80" rx="10" fill="#F2C811"/>
+  <text x="380" y="784" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">Analytics &amp; Reporting</text>
+  <text x="380" y="806" text-anchor="middle" font-size="13" fill="#4a3c00">Power BI — live 5-page dashboard</text>
+  <text x="380" y="824" text-anchor="middle" font-size="13" fill="#4a3c00">+ Weekly Summary Email, generated automatically</text>
+
+  <text x="380" y="900" text-anchor="middle" font-size="12" fill="#888888">Built entirely on Microsoft 365 Business Standard — no premium connectors, no AI Builder, no HTTP connector</text>
+</svg>
