@@ -107,7 +107,7 @@ This is where the actual decision-making happens. The moment a ticket is created
 
 - **Role-based escalation** — Executives, VIPs, and the IT Infrastructure Head are always forced to Critical, and Finance department tickets are always forced to High, regardless of what the submitter selected.
 - **Anti-gaming protection** — a regular employee can't self-assign a high priority without justification, the system quietly corrects it back down, with one deliberate exception: a genuine Suspicious Login report always stays Critical, no matter who files it.
-- **Content-aware risk detection** — the system reads the actual description text. Words like "virus," "breach," or "ransomware" force the ticket to Critical immediately, while words like "urgent" or "not working" push it to High, even if the person reporting it didn't realize how serious it was. This detection only ever escalates upward, it never has the power to drop a ticket below where role-based rules already placed it.
+- **Content-aware risk detection** — the system reads the actual description text. Words like "virus," "breach," "hacked" or "ransomware" force the ticket to Critical immediately, while words like "urgent," "emergency," or "not working" push it to High, even if the person reporting it didn't realize how serious it was. This detection only ever escalates upward, it never has the power to drop a ticket below where role-based rules already placed it.
 - **Smart routing** — based on the final priority and issue type, the ticket is automatically assigned to Security Team, Network Team, or Service Desk, with an appropriate SLA deadline attached.
 
 ![Priority upgrade logic](screenshots/Priority%20Upgrade%20-%20Automated%20Flow.png)
